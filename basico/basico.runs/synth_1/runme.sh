@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log decoBDC_7seg.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoBDC_7seg.tcl
+EAStep vivado -log conta_v1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source conta_v1.tcl

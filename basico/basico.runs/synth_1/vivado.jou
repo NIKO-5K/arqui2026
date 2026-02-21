@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sat Feb 21 10:40:46 2026
-# Process ID: 14084
+# Start of session at: Sat Feb 21 12:57:29 2026
+# Process ID: 1428
 # Current directory: C:/Users/njimenezs/Documents/arqui/clase2026/basico/basico.runs/synth_1
-# Command line: vivado.exe -log decoBDC_7seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoBDC_7seg.tcl
-# Log file: C:/Users/njimenezs/Documents/arqui/clase2026/basico/basico.runs/synth_1/decoBDC_7seg.vds
+# Command line: vivado.exe -log conta_v1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conta_v1.tcl
+# Log file: C:/Users/njimenezs/Documents/arqui/clase2026/basico/basico.runs/synth_1/conta_v1.vds
 # Journal file: C:/Users/njimenezs/Documents/arqui/clase2026/basico/basico.runs/synth_1\vivado.jou
 # Running On: LENOVO8302, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 17010 MB
 #-----------------------------------------------------------
-source decoBDC_7seg.tcl -notrace
+source conta_v1.tcl -notrace
