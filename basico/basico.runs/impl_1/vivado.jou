@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sat Feb 14 13:16:20 2026
-# Process ID: 2488
+# Start of session at: Sat Feb 21 10:41:44 2026
+# Process ID: 15152
 # Current directory: C:/Users/njimenezs/Documents/arqui/clase2026/basico/basico.runs/impl_1
 # Command line: vivado.exe -log decoBDC_7seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoBDC_7seg.tcl -notrace
 # Log file: C:/Users/njimenezs/Documents/arqui/clase2026/basico/basico.runs/impl_1/decoBDC_7seg.vdi

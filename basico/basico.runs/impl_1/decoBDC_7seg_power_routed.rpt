@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Sat Feb 14 13:15:59 2026
+| Date             : Sat Feb 21 10:42:45 2026
 | Host             : LENOVO8302 running 64-bit major release  (build 9200)
 | Command          : report_power -file decoBDC_7seg_power_routed.rpt -pb decoBDC_7seg_power_summary_routed.pb -rpx decoBDC_7seg_power_routed.rpx
 | Design           : decoBDC_7seg
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 6.830        |
+| Total On-Chip Power (W)  | 7.966        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 6.727        |
-| Device Static (W)        | 0.103        |
+| Dynamic (W)              | 7.852        |
+| Device Static (W)        | 0.114        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 50.9         |
-| Junction Temperature (C) | 59.1         |
+| Max Ambient (C)          | 45.2         |
+| Junction Temperature (C) | 64.8         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,12 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.021 |        7 |       --- |             --- |
-|   LUT as Logic |     0.021 |        4 |     20800 |            0.02 |
-| Signals        |     0.070 |       11 |       --- |             --- |
-| I/O            |     6.636 |       11 |       106 |           10.38 |
-| Static Power   |     0.103 |          |           |                 |
-| Total          |     6.830 |          |           |                 |
+| Slice Logic    |     0.024 |        7 |       --- |             --- |
+|   LUT as Logic |     0.024 |        4 |     20800 |            0.02 |
+| Signals        |     0.080 |       11 |       --- |             --- |
+| I/O            |     7.747 |       11 |       106 |           10.38 |
+| Static Power   |     0.114 |          |           |                 |
+| Total          |     7.966 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,9 +67,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.142 |       0.107 |      0.035 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.258 |       0.243 |      0.015 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     1.875 |       1.874 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.165 |       0.121 |      0.044 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.300 |       0.283 |      0.016 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     2.189 |       2.188 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -134,7 +134,7 @@ Table of Contents
 +--------------+-----------+
 | Name         | Power (W) |
 +--------------+-----------+
-| decoBDC_7seg |     6.727 |
+| decoBDC_7seg |     7.852 |
 +--------------+-----------+
 
 

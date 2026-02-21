@@ -42,7 +42,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log decoBDC_7seg.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source decoBDC_7seg.tcl -notrace
 
 
