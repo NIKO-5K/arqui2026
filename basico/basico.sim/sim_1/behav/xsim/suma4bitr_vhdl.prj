@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../basico.srcs/sources_1/new/suma1b.vhd" \
+"../../../../basico.srcs/sources_1/new/suma4bitr.vhd" \
+
+# Do not sort compile order
+nosort

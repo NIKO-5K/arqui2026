@@ -1,93 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771696644">
-  <File Type="ROUTE-PWR" Name="conta_v1_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="conta_v1.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="conta_v1_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="conta_v1_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="conta_v1_rqa_opted.pb"/>
-  <File Type="BITSTR-MMI" Name="conta_v1.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="conta_v1_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="conta_v1_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="conta_v1_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="conta_v1_opt.dcp"/>
-  <File Type="OPT-DRC" Name="conta_v1_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="conta_v1.hwdef"/>
-  <File Type="PWROPT-DCP" Name="conta_v1_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="conta_v1_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="conta_v1_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="conta_v1_placed.dcp"/>
-  <File Type="PLACE-IO" Name="conta_v1_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="conta_v1_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="conta_v1_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="conta_v1_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="conta_v1_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="conta_v1_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="conta_v1_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="conta_v1.bin"/>
-  <File Type="PLACE-TIMING" Name="conta_v1_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="conta_v1_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="conta_v1_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="conta_v1_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="conta_v1.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="conta_v1_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="conta_v1_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="conta_v1_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="conta_v1.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="conta_v1_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="conta_v1_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="conta_v1_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="conta_v1_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="conta_v1_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="conta_v1_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="conta_v1_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="conta_v1_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="conta_v1_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="conta_v1_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="conta_v1_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="conta_v1_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="conta_v1_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="conta_v1_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="conta_v1_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="conta_v1_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="conta_v1_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="conta_v1_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="conta_v1_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="conta_v1_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="conta_v1_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="conta_v1_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="conta_v1_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="decoBDC_7seg_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="decoBDC_7seg_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="decoBDC_7seg_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="decoBDC_7seg_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="conta_v1.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="decoBDC_7seg_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="decoBDC_7seg_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="conta_v1.nky"/>
-  <File Type="BITSTR-BMM" Name="conta_v1_bd.bmm"/>
-  <File Type="PDI-FILE" Name="conta_v1.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="conta_v1_soc.pdi"/>
-  <File Type="PL-PDI-FILE" Name="conta_v1_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="conta_v1.rcfi"/>
-  <File Type="CFI_FILE" Name="conta_v1.cfi"/>
-  <File Type="RNPI_FILE" Name="conta_v1.rnpi"/>
-  <File Type="NPI_FILE" Name="conta_v1.npi"/>
-  <File Type="RBD_FILE" Name="conta_v1.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1772301238">
+  <File Type="ROUTE-PWR" Name="suma4bitr_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="suma4bitr.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="suma4bitr_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="suma4bitr_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="suma4bitr_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="suma4bitr.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="suma4bitr_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="suma4bitr_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="suma4bitr_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="suma4bitr_opt.dcp"/>
+  <File Type="OPT-DRC" Name="suma4bitr_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="suma4bitr.hwdef"/>
+  <File Type="PWROPT-DCP" Name="suma4bitr_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="suma4bitr_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="suma4bitr_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="suma4bitr_placed.dcp"/>
+  <File Type="PLACE-IO" Name="suma4bitr_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="suma4bitr_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="suma4bitr_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="suma4bitr_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="suma4bitr_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="suma4bitr_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="suma4bitr_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="suma4bitr.bin"/>
+  <File Type="PLACE-TIMING" Name="suma4bitr_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="suma4bitr_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="suma4bitr_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="suma4bitr_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="suma4bitr.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="suma4bitr_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="suma4bitr_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="suma4bitr_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="suma4bitr.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="suma4bitr_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="suma4bitr_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="suma4bitr_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="suma4bitr_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="suma4bitr_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="suma4bitr_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="suma4bitr_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="suma4bitr_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="suma4bitr_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="suma4bitr_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="suma4bitr_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="suma4bitr_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="suma4bitr_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="suma4bitr_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="suma4bitr_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="suma4bitr_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="suma4bitr_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="suma4bitr_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="suma4bitr_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="suma4bitr_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="suma4bitr_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="suma4bitr_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="suma4bitr_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="conta_v1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="conta_v1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="conta_v1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="conta_v1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="suma4bitr.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="conta_v1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="conta_v1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="suma4bitr.nky"/>
+  <File Type="BITSTR-BMM" Name="suma4bitr_bd.bmm"/>
+  <File Type="PDI-FILE" Name="suma4bitr.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="suma4bitr_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="suma4bitr_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="suma4bitr.rcfi"/>
+  <File Type="CFI_FILE" Name="suma4bitr.cfi"/>
+  <File Type="RNPI_FILE" Name="suma4bitr.rnpi"/>
+  <File Type="NPI_FILE" Name="suma4bitr.npi"/>
+  <File Type="RBD_FILE" Name="suma4bitr.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="conta_v1.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="conta_v1.sysdef"/>
-  <File Type="BG-BGN" Name="conta_v1.bgn"/>
-  <File Type="BG-DRC" Name="conta_v1.drc"/>
-  <File Type="RDI-RDI" Name="conta_v1.vdi"/>
+  <File Type="BITSTR-LTX" Name="suma4bitr.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="suma4bitr.sysdef"/>
+  <File Type="BG-BGN" Name="suma4bitr.bgn"/>
+  <File Type="BG-DRC" Name="suma4bitr.drc"/>
+  <File Type="RDI-RDI" Name="suma4bitr.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="conta_v1_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="conta_v1_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="suma4bitr_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="suma4bitr_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/suma1b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/suma4bitr.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/conta_v1.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -129,14 +142,14 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="conta_v1"/>
+      <Option Name="TopModule" Val="suma4bitr"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/contador" RelGenDir="$PGENDIR/contador">
-    <File Path="$PSRCDIR/contador/imports/Downloads/Basys-3-Master.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/suma4bitr" RelGenDir="$PGENDIR/suma4bitr">
+    <File Path="$PSRCDIR/suma4bitr/imports/Downloads/Basys-3-Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PSRCDIR/flip_flop/imports/Downloads/Basys-3-Master.xdc"/>
-        <Attr Name="ImportTime" Val="1771689019"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/suma1b/imports/Downloads/Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1772298591"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
