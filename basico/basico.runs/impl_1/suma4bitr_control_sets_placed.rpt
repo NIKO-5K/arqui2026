@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Sat Feb 28 12:55:33 2026
+| Date         : Sat Mar  7 11:01:13 2026
 | Host         : LENOVO8302 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file suma4bitr_control_sets_placed.rpt
 | Design       : suma4bitr

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Sat Feb 28 12:55:57 2026
+| Date             : Sat Mar  7 11:01:38 2026
 | Host             : LENOVO8302 running 64-bit major release  (build 9200)
 | Command          : report_power -file suma4bitr_power_routed.rpt -pb suma4bitr_power_summary_routed.pb -rpx suma4bitr_power_routed.rpx
 | Design           : suma4bitr
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 8.683        |
+| Total On-Chip Power (W)  | 8.660        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 8.561        |
+| Dynamic (W)              | 8.538        |
 | Device Static (W)        | 0.122        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 41.6         |
-| Junction Temperature (C) | 68.4         |
+| Max Ambient (C)          | 41.7         |
+| Junction Temperature (C) | 68.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,12 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.028 |        6 |       --- |             --- |
-|   LUT as Logic |     0.028 |        4 |     20800 |            0.02 |
-| Signals        |     0.116 |       15 |       --- |             --- |
+| Slice Logic    |     0.026 |        6 |       --- |             --- |
+|   LUT as Logic |     0.026 |        4 |     20800 |            0.02 |
+| Signals        |     0.094 |       15 |       --- |             --- |
 | I/O            |     8.417 |       14 |       106 |           13.21 |
 | Static Power   |     0.122 |          |           |                 |
-| Total          |     8.683 |          |           |                 |
+| Total          |     8.660 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,7 +67,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.231 |       0.180 |      0.051 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.207 |       0.157 |      0.051 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.324 |       0.307 |      0.017 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     2.373 |       2.372 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -134,7 +134,7 @@ Table of Contents
 +-----------+-----------+
 | Name      | Power (W) |
 +-----------+-----------+
-| suma4bitr |     8.561 |
+| suma4bitr |     8.538 |
 +-----------+-----------+
 
 

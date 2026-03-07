@@ -1,0 +1,7 @@
+Running: xsim.dir/suma4bitr_behav/xsimk.exe -simmode gui -wdb suma4bitr_behav.wdb -simrunnum 0 -socket 52079
+Design successfully loaded
+Design Loading Memory Usage: 7940 KB (Peak: 7940 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 8472 KB (Peak: 8472 KB)
+Simulation CPU Usage: 46 ms
