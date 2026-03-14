@@ -1,99 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1772899175">
-  <File Type="ROUTE-PWR" Name="suma4bitr_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="suma4bitr.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="suma4bitr_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="suma4bitr_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="suma4bitr_rqa_opted.pb"/>
-  <File Type="BITSTR-MMI" Name="suma4bitr.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="suma4bitr_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="suma4bitr_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="suma4bitr_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="suma4bitr_opt.dcp"/>
-  <File Type="OPT-DRC" Name="suma4bitr_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="suma4bitr.hwdef"/>
-  <File Type="PWROPT-DCP" Name="suma4bitr_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="suma4bitr_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="suma4bitr_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="suma4bitr_placed.dcp"/>
-  <File Type="PLACE-IO" Name="suma4bitr_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="suma4bitr_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="suma4bitr_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="suma4bitr_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="suma4bitr_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="suma4bitr_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="suma4bitr_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="suma4bitr.bin"/>
-  <File Type="PLACE-TIMING" Name="suma4bitr_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="suma4bitr_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="suma4bitr_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="suma4bitr_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="suma4bitr.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="suma4bitr_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="suma4bitr_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="suma4bitr_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="suma4bitr.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="suma4bitr_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="suma4bitr_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="suma4bitr_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="suma4bitr_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="suma4bitr_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="suma4bitr_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="suma4bitr_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="suma4bitr_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="suma4bitr_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="suma4bitr_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="suma4bitr_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="suma4bitr_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="suma4bitr_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="suma4bitr_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="suma4bitr_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="suma4bitr_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="suma4bitr_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="suma4bitr_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="suma4bitr_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="suma4bitr_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="suma4bitr_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="suma4bitr_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="suma4bitr_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="suma4bitr_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="suma4bitr_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="suma4bitr_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="suma4bitr_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="suma4bitr.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="suma4bitr_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="suma4bitr_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="suma4bitr.nky"/>
-  <File Type="BITSTR-BMM" Name="suma4bitr_bd.bmm"/>
-  <File Type="PDI-FILE" Name="suma4bitr.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="suma4bitr_soc.pdi"/>
-  <File Type="PL-PDI-FILE" Name="suma4bitr_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="suma4bitr.rcfi"/>
-  <File Type="CFI_FILE" Name="suma4bitr.cfi"/>
-  <File Type="RNPI_FILE" Name="suma4bitr.rnpi"/>
-  <File Type="NPI_FILE" Name="suma4bitr.npi"/>
-  <File Type="RBD_FILE" Name="suma4bitr.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1773512595">
+  <File Type="ROUTE-PWR" Name="display_control_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="display_control.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="display_control_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="display_control_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="display_control_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="display_control.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="display_control_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="display_control_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="display_control_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="display_control_opt.dcp"/>
+  <File Type="OPT-DRC" Name="display_control_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="display_control.hwdef"/>
+  <File Type="PWROPT-DCP" Name="display_control_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="display_control_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="display_control_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="display_control_placed.dcp"/>
+  <File Type="PLACE-IO" Name="display_control_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="display_control_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="display_control_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="display_control_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="display_control_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="display_control_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="display_control_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="display_control.bin"/>
+  <File Type="PLACE-TIMING" Name="display_control_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="display_control_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="display_control_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="display_control_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="display_control.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="display_control_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="display_control_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="display_control_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="display_control.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="display_control_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="display_control_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="display_control_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="display_control_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="display_control_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="display_control_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="display_control_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="display_control_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="display_control_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="display_control_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="display_control_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="display_control_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="display_control_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="display_control_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="display_control_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="display_control_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="display_control_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="display_control_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="display_control_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="display_control_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="display_control_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="display_control_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="display_control_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="porcesadornk_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="porcesadornk_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="porcesadornk_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="porcesadornk_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="display_control.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="porcesadornk_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="porcesadornk_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="display_control.nky"/>
+  <File Type="BITSTR-BMM" Name="display_control_bd.bmm"/>
+  <File Type="PDI-FILE" Name="display_control.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="display_control_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="display_control_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="display_control.rcfi"/>
+  <File Type="CFI_FILE" Name="display_control.cfi"/>
+  <File Type="RNPI_FILE" Name="display_control.rnpi"/>
+  <File Type="NPI_FILE" Name="display_control.npi"/>
+  <File Type="RBD_FILE" Name="display_control.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="suma4bitr.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="suma4bitr.sysdef"/>
-  <File Type="BG-BGN" Name="suma4bitr.bgn"/>
-  <File Type="BG-DRC" Name="suma4bitr.drc"/>
-  <File Type="RDI-RDI" Name="suma4bitr.vdi"/>
+  <File Type="BITSTR-LTX" Name="display_control.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="display_control.sysdef"/>
+  <File Type="BG-BGN" Name="display_control.bgn"/>
+  <File Type="BG-DRC" Name="display_control.drc"/>
+  <File Type="RDI-RDI" Name="display_control.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="suma4bitr_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="suma4bitr_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="display_control_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="display_control_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/conta_2bits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conta_32bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decoBDC_7seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/deco_sel_bcd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4_1_4bits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_control.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/registro32b.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/porcesadornk.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4_1_5b.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4_1_32b.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2_1_32_b.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/suma1b.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/suma4bitr.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -119,13 +192,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/decoBDC_7seg.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/new/xorgate.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
@@ -142,14 +208,14 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="suma4bitr"/>
+      <Option Name="TopModule" Val="display_control"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/suma4bitr" RelGenDir="$PGENDIR/suma4bitr">
-    <File Path="$PSRCDIR/suma4bitr/imports/Downloads/Basys-3-Master.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/display_control" RelGenDir="$PGENDIR/display_control">
+    <File Path="$PSRCDIR/display_control/imports/Downloads/Basys-3-Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PSRCDIR/suma1b/imports/Downloads/Basys-3-Master.xdc"/>
-        <Attr Name="ImportTime" Val="1772298591"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/constrs_1/imports/Downloads/Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1771689019"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
