@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1773512595">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774116885">
   <File Type="ROUTE-PWR" Name="display_control_power_routed.rpt"/>
   <File Type="PA-TCL" Name="display_control.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="display_control_power_summary_routed.pb"/>
@@ -56,13 +56,13 @@
   <File Type="ROUTE-BUS-SKEW-RPX" Name="display_control_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="display_control_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="display_control_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="porcesadornk_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="porcesadornk_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="porcesadornk_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="porcesadornk_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="display_control_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="display_control_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="display_control_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="display_control_bus_skew_postroute_physopted.rpt"/>
   <File Type="BG-BIT" Name="display_control.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="porcesadornk_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="porcesadornk_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="display_control_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="display_control_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-NKY" Name="display_control.nky"/>
   <File Type="BITSTR-BMM" Name="display_control_bd.bmm"/>
   <File Type="PDI-FILE" Name="display_control.pdi"/>
@@ -118,6 +118,13 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/display_control.vhd">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/memori.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
