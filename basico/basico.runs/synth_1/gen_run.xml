@@ -1,48 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774116825" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/notgate.dcp">
-  <File Type="PA-TCL" Name="display_control.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="display_control_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="display_control_reports.tcl"/>
-  <File Type="RDS-RDS" Name="display_control.vds"/>
-  <File Type="RDS-UTIL" Name="display_control_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="display_control_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="display_control.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="display_control_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="display_control_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774721216" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/notgate.dcp">
+  <File Type="PA-TCL" Name="luzuwu.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="luzuwu_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="luzuwu_reports.tcl"/>
+  <File Type="RDS-RDS" Name="luzuwu.vds"/>
+  <File Type="RDS-UTIL" Name="luzuwu_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="luzuwu_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="luzuwu.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="luzuwu_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="luzuwu_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/luzuwu.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/conta_2bits.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/conta_32bit.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/decoBDC_7seg.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/deco_sel_bcd.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/mux4_1_4bits.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/display_control.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -140,11 +152,11 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="display_control"/>
+      <Option Name="TopModule" Val="luzuwu"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/display_control" RelGenDir="$PGENDIR/display_control">
-    <File Path="$PSRCDIR/display_control/imports/Downloads/Basys-3-Master.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/luzuwu" RelGenDir="$PGENDIR/luzuwu">
+    <File Path="$PSRCDIR/luzuwu/imports/Downloads/Basys-3-Master.xdc">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PSRCDIR/constrs_1/imports/Downloads/Basys-3-Master.xdc"/>
         <Attr Name="ImportTime" Val="1771689019"/>

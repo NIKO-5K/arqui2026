@@ -1,123 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774116885">
-  <File Type="ROUTE-PWR" Name="display_control_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="display_control.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="display_control_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="display_control_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="display_control_rqa_opted.pb"/>
-  <File Type="BITSTR-MMI" Name="display_control.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="display_control_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="display_control_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="display_control_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="display_control_opt.dcp"/>
-  <File Type="OPT-DRC" Name="display_control_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="display_control.hwdef"/>
-  <File Type="PWROPT-DCP" Name="display_control_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="display_control_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="display_control_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="display_control_placed.dcp"/>
-  <File Type="PLACE-IO" Name="display_control_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="display_control_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="display_control_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="display_control_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="display_control_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="display_control_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="display_control_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="display_control.bin"/>
-  <File Type="PLACE-TIMING" Name="display_control_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="display_control_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="display_control_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="display_control_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="display_control.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="display_control_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="display_control_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="display_control_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="display_control.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="display_control_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="display_control_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="display_control_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="display_control_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="display_control_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="display_control_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="display_control_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="display_control_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="display_control_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="display_control_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="display_control_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="display_control_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="display_control_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="display_control_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="display_control_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="display_control_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="display_control_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="display_control_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="display_control_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="display_control_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="display_control_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="display_control_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="display_control_postroute_physopt_bb.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774721216">
+  <File Type="ROUTE-PWR" Name="luzuwu_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="luzuwu.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="luzuwu_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="luzuwu_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="luzuwu_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="luzuwu.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="luzuwu_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="luzuwu_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="luzuwu_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="luzuwu_opt.dcp"/>
+  <File Type="OPT-DRC" Name="luzuwu_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="luzuwu.hwdef"/>
+  <File Type="PWROPT-DCP" Name="luzuwu_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="luzuwu_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="luzuwu_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="luzuwu_placed.dcp"/>
+  <File Type="PLACE-IO" Name="luzuwu_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="luzuwu_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="luzuwu_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="luzuwu_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="luzuwu_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="luzuwu_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="luzuwu_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="luzuwu.bin"/>
+  <File Type="PLACE-TIMING" Name="luzuwu_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="luzuwu_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="luzuwu_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="luzuwu_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="luzuwu.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="luzuwu_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="luzuwu_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="luzuwu_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="luzuwu.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="luzuwu_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="luzuwu_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="luzuwu_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="luzuwu_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="luzuwu_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="luzuwu_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="luzuwu_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="luzuwu_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="luzuwu_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="luzuwu_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="luzuwu_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="luzuwu_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="luzuwu_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="luzuwu_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="luzuwu_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="luzuwu_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="luzuwu_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="luzuwu_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="luzuwu_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="luzuwu_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="luzuwu_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="luzuwu_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="luzuwu_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="display_control_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="display_control_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="display_control_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="display_control_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="display_control.bit"/>
+  <File Type="BG-BIT" Name="luzuwu.bit"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="display_control_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="display_control_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="display_control.nky"/>
-  <File Type="BITSTR-BMM" Name="display_control_bd.bmm"/>
-  <File Type="PDI-FILE" Name="display_control.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="display_control_soc.pdi"/>
-  <File Type="PL-PDI-FILE" Name="display_control_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="display_control.rcfi"/>
-  <File Type="CFI_FILE" Name="display_control.cfi"/>
-  <File Type="RNPI_FILE" Name="display_control.rnpi"/>
-  <File Type="NPI_FILE" Name="display_control.npi"/>
-  <File Type="RBD_FILE" Name="display_control.rbd"/>
+  <File Type="BITSTR-NKY" Name="luzuwu.nky"/>
+  <File Type="BITSTR-BMM" Name="luzuwu_bd.bmm"/>
+  <File Type="PDI-FILE" Name="luzuwu.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="luzuwu_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="luzuwu_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="luzuwu.rcfi"/>
+  <File Type="CFI_FILE" Name="luzuwu.cfi"/>
+  <File Type="RNPI_FILE" Name="luzuwu.rnpi"/>
+  <File Type="NPI_FILE" Name="luzuwu.npi"/>
+  <File Type="RBD_FILE" Name="luzuwu.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="display_control.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="display_control.sysdef"/>
-  <File Type="BG-BGN" Name="display_control.bgn"/>
-  <File Type="BG-DRC" Name="display_control.drc"/>
-  <File Type="RDI-RDI" Name="display_control.vdi"/>
+  <File Type="BITSTR-LTX" Name="luzuwu.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="luzuwu.sysdef"/>
+  <File Type="BG-BGN" Name="luzuwu.bgn"/>
+  <File Type="BG-DRC" Name="luzuwu.drc"/>
+  <File Type="RDI-RDI" Name="luzuwu.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="display_control_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="display_control_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="luzuwu_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="luzuwu_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/luzuwu.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/conta_2bits.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/conta_32bit.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/decoBDC_7seg.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/deco_sel_bcd.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/mux4_1_4bits.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/display_control.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -215,11 +227,11 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="display_control"/>
+      <Option Name="TopModule" Val="luzuwu"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/display_control" RelGenDir="$PGENDIR/display_control">
-    <File Path="$PSRCDIR/display_control/imports/Downloads/Basys-3-Master.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/luzuwu" RelGenDir="$PGENDIR/luzuwu">
+    <File Path="$PSRCDIR/luzuwu/imports/Downloads/Basys-3-Master.xdc">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PSRCDIR/constrs_1/imports/Downloads/Basys-3-Master.xdc"/>
         <Attr Name="ImportTime" Val="1771689019"/>
