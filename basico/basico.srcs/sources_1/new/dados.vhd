@@ -22,8 +22,18 @@ component conta_32bit
            reset : in STD_LOGIC;
            count : out STD_LOGIC_VECTOR (31 downto 0));
 end component;
+component display_control 
+    Port ( bcd_4 : in STD_LOGIC_VECTOR (15 downto 0);
+           clock : in STD_LOGIC;
+           reset : in STD_LOGIC;
+           seg : out STD_LOGIC_VECTOR (6 downto 0);
+           sel_seg : out STD_LOGIC_VECTOR (3 downto 0));
+end component ;
 
 signal tiempo_1, tiempo_2 : std_logic_vector (31 downto 0);
+signal numeroa, numerob : std_logic_vector  (15 downto 0 );
+signal sel : std_logic_vector (3 downto 0);
+signal segento : std_logic_vector (6 downto 0); 
 begin
 tiempoa: conta_32bit
     port map (
