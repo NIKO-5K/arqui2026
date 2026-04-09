@@ -33,7 +33,7 @@ end component ;
 signal tiempo_1, tiempo_2 : std_logic_vector (31 downto 0);
 signal numeroa, numerob : std_logic_vector  (15 downto 0 );
 signal sel : std_logic_vector (3 downto 0);
-signal segento : std_logic_vector (6 downto 0); 
+signal segmento : std_logic_vector (6 downto 0); 
 begin
 tiempoa: conta_32bit
     port map (
@@ -47,6 +47,14 @@ tiempob: conta_32bit
         reset => reset,
         count => tiempo_2
     );
+ display : display_control
+     port map (
+        bcd_4 => numeroa,
+        clock => clock,
+        reset => reset,
+        seg => segmento,
+        sel_seg => sel
+     );
 process 
 variable seed1,seed2 : positive :=1;
 variable rand : real;
