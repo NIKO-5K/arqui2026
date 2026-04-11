@@ -12,6 +12,7 @@ entity dados is
            ini : in STD_LOGIC;
            clock : in STD_LOGIC;
            segmento : out STD_LOGIC_VECTOR (6 downto 0);
+           sel_seg : out std_logic_vector (3 downto 0);
            win : out STD_LOGIC;
            lose : out STD_LOGIC;
            tryagain : out STD_LOGIC);
@@ -46,6 +47,8 @@ siseve(7 downto 4) <= numeroa;
 siseve(3 downto 0) <= numerob;
 paldisplay(15 downto 8) <= noseve;
 paldisplay(7 downto 0) <= siseve;
+sel_seg(3 downto 2) <= "11";
+sel_seg(1 downto 0)<= sel(1 downto 0);
 
 tiempoa: conta_32bit
     port map (

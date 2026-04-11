@@ -15,8 +15,8 @@ architecture Behavioral of deco_sel_bcd is
 begin
 sel <= "1110" when clock_div = "00" else
        "1101" when clock_div = "01" else
-       "1110" when clock_div = "10" else
-       "1101" when clock_div = "11" else
+       "1011" when clock_div = "10" else
+       "0111" when clock_div = "11" else
        "1111";
 
 end Behavioral;
