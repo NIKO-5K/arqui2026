@@ -11,7 +11,7 @@ entity dados is
     Port ( reset : in STD_LOGIC;
            ini : in STD_LOGIC;
            clock : in STD_LOGIC;
-           seg : out STD_LOGIC_VECTOR (6 downto 0);
+           segmento : out STD_LOGIC_VECTOR (6 downto 0);
            win : out STD_LOGIC;
            lose : out STD_LOGIC;
            tryagain : out STD_LOGIC);
@@ -36,7 +36,6 @@ signal numeroa, numerob : std_logic_vector  (3 downto 0 );
 signal noseve, siseve : std_logic_vector (7 downto 0);
 signal paldisplay : std_logic_vector (15 downto 0);
 signal sel : std_logic_vector (3 downto 0);
-signal segmento : std_logic_vector (6 downto 0); 
 signal count_i , count, count_i2 , count2     : std_logic_vector (3 downto 0);
 signal feedback,reset_int     : std_logic;
 
